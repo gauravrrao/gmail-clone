@@ -1,0 +1,30 @@
+.email_body{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 10px solid whitesmoke;
+}
+
+.email_body_left{
+    display: flex;
+    
+}
+
+.email_body_left > h4 {
+    margin-left: 30px;
+}
+
+.email_body_middle{
+    display: flex;
+    margin-left: 40px;
+    
+}
+
+.email_body_middle>p{
+    margin-left: 15px;
+}
+.email_body:hover{
+    border-bottom: 5px solid rgb(0, 60, 255);
+    cursor: pointer;
+    background-color: whitesmoke;
+}

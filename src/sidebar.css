@@ -1,0 +1,30 @@
+.button{
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    outline: none;
+    background:transparent;
+    padding: 10px;
+    border-radius: 40px;
+    margin: 20px;
+    border: 1px solid rgb(186, 182, 182);
+    box-shadow: 1px 1px 1px;
+}
+
+.add{
+    color: rgb(106, 0, 255);
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(214, 199, 199);
+}
+
+.text{
+   
+    background-color: whitesmoke;
+}
+
+.meet{
+    padding: 20px;
+}

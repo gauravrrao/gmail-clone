@@ -1,0 +1,14 @@
+.left_email_list_setting{
+    padding: 5px;
+}
+
+.email_list_setting{
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid whitesmoke;
+}
+
+.right_email_list_setting{
+    display: flex;
+    padding: 5px;
+}

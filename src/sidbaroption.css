@@ -1,0 +1,35 @@
+.SiderbarOption{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 0px 25px;
+    margin-right: 20px;
+    background-color: white;
+}
+
+.SiderbarOption:hover{
+    background-color: rgb(210, 196, 196);
+    cursor: pointer;
+    color: blue;
+}
+
+.SiderbarOption svg{
+    color:grey;
+    font-size: 20px;
+    width: 20px;
+}
+
+.SiderbarOption h2{
+    font-size: 14px;
+    flex:1;
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+.SiderbarOption p{
+    opacity: 1;
+    color: grey;
+    font-size: 12px;
+}

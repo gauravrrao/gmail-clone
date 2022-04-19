@@ -1,0 +1,63 @@
+
+.compose{
+    width:30vw;
+    height:50vh;
+    border: 2px solid rgb(207, 201, 201);
+    right: 70px;
+    position: absolute;
+    bottom:0;
+    margin-bottom: 20px;
+    border-radius: 20px
+}
+.header_compose{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    color:white;
+    min-height: 9px;
+    justify-content: space-between;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.header_compose:hover{
+    cursor: pointer;
+}
+.left_header{
+    background-color: rgb(9, 9, 9);
+}
+.container_compose{
+    background-color: whitesmoke;
+    height: 250px;
+}
+
+.first_line_compose{
+   height: 25px;
+   width:434px;
+   border: 2px solid whitesmoke;
+   border-bottom: 3px solid rgb(255, 242, 242);
+}
+.second_line_compose{
+    width:400px;
+    height: 25px;
+    border: 2px solid whitesmoke;
+    border-bottom: 3px solid rgb(255, 247, 247);
+}
+.fotter_compose{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 241, 248);
+    height: 40px;
+    align-items: center;
+    border-radius: 20px;
+    color: gray;
+}
+
+.fotter_compose > button{
+    width:250px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
+
+.cancel{
+    background-color: rgb(80, 49, 49);
+}
